@@ -1,5 +1,5 @@
 ---
 applications:
-- name:      first_app
+- name:      hello-python
   memory:    128M
   buildpack: https://github.com/ephoning/heroku-buildpack-python
