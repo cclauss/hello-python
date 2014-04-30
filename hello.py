@@ -1,12 +1,15 @@
-import os
+import os, sys
 from flask import Flask
 
 app = Flask(__name__)
 
 @app.route('/')
 def hello():
-	return 'Hello World!'
+	return 'Hello World!<p>Running on Python {}'.format(sys.version)
 
-port = os.getenv('VCAP_APP_PORT', '5000')
 if __name__ == "__main__":
-	app.run(host='0.0.0.0', port=int(port))
+    if sys.platform == 'darwin':
+        app.run(debug=True)  # if on Mac OSX
+    else:
+        port = os.getenv('VCAP_APP_PORT', '5000')
+        app.run(host='0.0.0.0', port=int(port))
