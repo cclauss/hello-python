@@ -6,6 +6,8 @@ The sample is using [Flask microframework](http://flask.pocoo.org/) and is inten
 Deploy to IBM BlueMix
 ---------------------
 ```script
+git clone <URL_OF_THIS_REPO>
+cd hello-python
 cf push <YOUR_APP_NAME>
 ```
 
