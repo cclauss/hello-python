@@ -17,6 +17,6 @@ Notes
 
 Python Versions
 ---------------
-Edit __runtime.txt__ to select desired runtime: python-2.7.6 __or__ python-3.4.0 __or__ pypy-1.9
+Edit __runtime.txt__ to select desired runtime: __python-2.7.6__ or __python-3.4.0__ or __pypy-1.9__
 
-NOTE: pypy-2.2.1 did not work for me on BlueMix.
+NOTE: pypy-2.2.1 did not seem to work on BlueMix.
