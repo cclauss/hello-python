@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-	return 'Hello World!<p>Running on Python {}'.format(sys.version)
+	return 'Hello World!<p><p><sub>Running on Python {}</sub>'.format(sys.version)
 
 if __name__ == "__main__":
     if sys.platform == 'darwin':
