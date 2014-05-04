@@ -1,4 +1,4 @@
-import flask, os, sys
+import flask, os, sys, webbrowser
 
 app = flask.Flask(__name__)
 
@@ -7,8 +7,9 @@ def hello():
     fmt = '<h1>Hello World!</h1><p><p><sub>Running on Python {} and Flask {}.</sub>'
     return fmt.format(sys.version, flask.__version__)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     if sys.platform == 'darwin':
+        webbrowser.open('http://127.0.0.1:5000')
         app.run(debug=True)  # if on Mac OSX
     else:
         port = os.getenv('VCAP_APP_PORT', '5000')
