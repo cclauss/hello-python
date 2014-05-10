@@ -18,7 +18,7 @@ try:
     app = flask.Flask(__name__)
     web_framework_link = product_url('Flask', 'flask.pocoo.org', flask.__version__)
 except NameError:
-    app = bottle.Bottle(catchall=False)
+    app = bottle.Bottle(__name__)
     web_framework_link = product_url('Bottle', 'bottlepy.org', bottle.__version__)
 
 @app.route('/')
