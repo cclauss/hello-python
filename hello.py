@@ -9,7 +9,7 @@ try:
 except ImportError:
     import bottle
 
-def get_footer():
+def get_footer():  # HTML to show version info for Python and Flask/bottle 
     def product_url(in_name, in_domain_name, in_version):
         fmt = '<a href="http://{}">{} {}</a>'
         return fmt.format(in_domain_name, in_name, in_version)
