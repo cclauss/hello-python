@@ -1,7 +1,7 @@
 Sample Python Web application
 =============================
 
-Sample [Python](http://python.org) webapp that supports using either the [Flask](http://flask.pocoo.org) or [bottle](http://bottlepy.org) microframeworks.  This webapp is intented to test the Python support on [IBM's BlueMix](https://bluemix.net).
+Webapp that supports the use of either the [Flask](http://flask.pocoo.org) or [bottle](http://bottlepy.org) microframeworks and is intented to test the support for [Python](http://python.org) on [IBM's BlueMix](https://bluemix.net) PaaS.
 
 Deploy to IBM BlueMix
 ---------------------
