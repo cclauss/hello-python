@@ -8,7 +8,7 @@ Deploy to IBM BlueMix
 ```script
 git clone <URL_OF_THIS_REPO>
 cd hello-python
-cf push <YOUR_APP_NAME>
+cf push
 ```
 
 Notes
@@ -19,4 +19,4 @@ Python Versions
 ---------------
 Edit __runtime.txt__ to select desired runtime: __python-2.7.6__ or __python-3.4.0__ or __pypy-1.9__
 
-NOTE: pypy-2.3 did not seem to work on BlueMix.
+NOTE: `pypy-2.3` does not yet seem to work on BlueMix.
