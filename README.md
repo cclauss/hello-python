@@ -9,7 +9,7 @@ Assumes that [`git`](http://github.com) and [`cf`](http://cli.cloudfoundry.org) 
 ```script
 git clone <URL_OF_THIS_REPO>
 cd hello-python
-cf push
+cf push <YOUR-APP-NAME>
 ```
 
 Notes
