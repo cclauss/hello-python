@@ -1,6 +1,8 @@
 ---
+# http://docs.gopivotal.com/pivotalcf/devguide/deploy-apps/manifest.html#minimal-manifest
 applications:
 - name:      hello-python
   memory:    128M
   buildpack: https://github.com/ephoning/heroku-buildpack-python
-  command:   python hello.py
+  command:   python hello.py  # Use this line for Flask, bottle, etc.
+# command:   python manage.py runserver 0.0.0.0:$VCAP_APP_PORT  # Use this line for Django
