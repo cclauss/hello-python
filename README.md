@@ -3,8 +3,9 @@ Sample Python Web application
 
 Sample [Python](http://python.org) webapp that supports using either the [Flask](http://flask.pocoo.org) or [bottle](http://bottlepy.org) microframeworks.  This webapp is intented to test the Python support on [IBM's BlueMix](https://bluemix.net).
 
-Deploy to IBM BlueMix (assumes that [cf](http://cli.cloudfoundry.org) has been properly installed)
+Deploy to IBM BlueMix
 ---------------------
+Assumes that [cf](http://cli.cloudfoundry.org) has been properly installed.
 ```script
 git clone <URL_OF_THIS_REPO>
 cd hello-python
