@@ -5,7 +5,7 @@ Webapp that supports the use of either the [Flask](http://flask.pocoo.org) or [b
 
 Deploy to IBM BlueMix
 ---------------------
-Assumes that [`cf`](http://cli.cloudfoundry.org) has been properly installed.
+Assumes that [`git`](http://github.com) and [`cf`](http://cli.cloudfoundry.org) has been properly installed.
 ```script
 git clone <URL_OF_THIS_REPO>
 cd hello-python
