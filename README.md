@@ -1,9 +1,9 @@
 Sample Python Web application
 =============================
 
-The sample is using [Flask microframework](http://flask.pocoo.org/) and is intented to test the Python support on [IBM's BlueMix](https://bluemix.net/).
+Sample [Python](http://python.org) webapp that supports using either the [Flask](http://flask.pocoo.org) or [bottle](http://bottlepy.org) microframeworks.  This webapp is intented to test the Python support on [IBM's BlueMix](https://bluemix.net).
 
-Deploy to IBM BlueMix
+Deploy to IBM BlueMix (assumes that [cf](http://cli.cloudfoundry.org) has been properly installed)
 ---------------------
 ```script
 git clone <URL_OF_THIS_REPO>
@@ -17,6 +17,6 @@ Notes
 
 Python Versions
 ---------------
-Edit __runtime.txt__ to select desired runtime: __python-2.7.6__ or __python-3.4.0__ or __pypy-1.9__
+Edit `runtime.txt` to select desired runtime: `python-2.7.6` or `python-3.4.0` or `pypy-1.9`
 
 NOTE: `pypy-2.3` does not yet seem to work on BlueMix.
